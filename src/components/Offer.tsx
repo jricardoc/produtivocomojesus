@@ -3,7 +3,7 @@ import { CheckCircle, Award } from "lucide-react";
 
 const Offer = () => {
   const [checkoutUrl, setCheckoutUrl] = useState(
-    "https://pay.hotmart.com/O102339313N?checkoutMode=10",
+    "https://pay.hotmart.com/U104227643I?checkoutMode=10",
   );
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const Offer = () => {
 
     if (Object.keys(utmParams).length > 0) {
       const url = new URL(
-        "https://pay.hotmart.com/O102339313N?checkoutMode=10",
+        "https://pay.hotmart.com/U104227643I?checkoutMode=10",
       );
       Object.entries(utmParams).forEach(([key, value]) => {
         url.searchParams.set(key, value);
@@ -105,6 +105,15 @@ const Offer = () => {
 
           {/* Pricing Card */}
           <div className="text-center">
+            {/* Added Banner Image */}
+            <div className="mb-8 rounded-2xl overflow-hidden shadow-2xl border-4 border-gold-100">
+              <img
+                src="https://www.acervodopsicologo.com/wp-content/uploads/2026/02/novo-banner.png"
+                alt="Produtivo como Jesus Banner"
+                className="w-full h-auto"
+              />
+            </div>
+
             <div className="bg-white rounded-2xl p-8 mb-12 border border-gold-200 shadow-2xl">
               <ul className="space-y-4 mb-8">
                 {benefits.map((benefit, index) => (

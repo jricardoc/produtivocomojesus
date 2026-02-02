@@ -43,32 +43,24 @@ const Header = () => {
       </div>
 
       <div className="relative container mx-auto px-6 pt-8 pb-8 md:py-16 flex flex-col items-center justify-center">
-        {/* Logo/Brand */}
-        {/* <div className="flex items-center gap-3 mb-8">
-          <div className="bg-gold-500 p-3 rounded-full">
-            <Brain className="w-8 h-8 text-white" />
-          </div>
-          <span className="text-2xl font-bold text-slate-800">
-            Produtivo como Jesus
-          </span>
-        </div> */}
-
         {/* Main Headline */}
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-tight max-w-5xl text-slate-900">
-          Produtivo como Jesus: O segredo bíblico da gestão de foco que a{" "}
-          <span className="text-gold-600">neurociência validou</span>
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-[1.15] md:leading-tight max-w-5xl text-slate-900">
+          Como organizar sua rotina em 21 dias usando o mesmo método de gestão
+          de tempo que <span className="text-gold-600">Jesus usou</span> para{" "}
+          <span className="text-gold-600">mudar a história</span> em apenas 3
+          anos
         </h1>
 
-        {/* Mock-up Visual */}
+        {/* Mock-up Visual - No margin or padding as requested */}
         <div className="relative mb-6 md:mb-12">
-          <div className="rounded-2xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500 border-4 border-gold-100">
+          <div className="rounded-2xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500 border-4 border-gold-100 w-[85%] max-w-[20rem] md:w-full md:max-w-md mx-auto">
             <img
-              src="https://www.acervodopsicologo.com/wp-content/uploads/2026/02/produtivocomojesus.webp"
+              src="https://www.acervodopsicologo.com/wp-content/uploads/2026/02/novo-banner.png"
               alt="Produtivo como Jesus - Planner"
               width="800"
               height="800"
               fetchPriority="high"
-              className="w-[80%] max-w-[17rem] md:w-full md:max-w-md h-auto mx-auto"
+              className="w-full h-auto"
             />
           </div>
         </div>
@@ -83,7 +75,7 @@ const Header = () => {
         {/* CTA Button */}
         <button
           onClick={scrollToOffer}
-          className="bg-gold-500 text-white px-6 py-4 md:px-12 md:py-5 rounded-full text-lg md:text-xl font-bold hover:bg-gold-600 transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border-b-4 border-gold-700 active:border-b-0 active:translate-y-1"
+          className="inline-block bg-gold-500 text-white px-6 py-4 md:px-12 md:py-5 rounded-full text-lg md:text-xl font-bold hover:bg-gold-600 transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border-b-4 border-gold-700 active:border-b-0 active:translate-y-1"
         >
           Quero Aprender o Ritmo de Jesus
         </button>
