@@ -45,8 +45,10 @@ const Header = () => {
       <div className="relative container mx-auto px-6 pt-8 pb-8 md:py-16 flex flex-col items-center justify-center">
         {/* Main Headline */}
         <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-[1.15] md:leading-tight max-w-5xl text-slate-900">
-          Como organizar sua rotina em 21 dias usando o mesmo método de gestão
-          de tempo de <span className="text-gold-600">Jesus</span>
+          Como{" "}
+          <span className="text-gold-600">Organizar sua rotina em 21 dias</span>{" "}
+          usando o mesmo método de gestão de tempo de{" "}
+          <span className="text-gold-600">Jesus</span>
         </h1>
 
         {/* Mock-up Visual - No margin or padding as requested */}
