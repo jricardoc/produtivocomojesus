@@ -44,14 +44,14 @@ const Header = () => {
 
       <div className="relative container mx-auto px-6 pt-8 pb-8 md:py-16 flex flex-col items-center justify-center">
         {/* Logo/Brand */}
-        <div className="flex items-center gap-3 mb-8">
+        {/* <div className="flex items-center gap-3 mb-8">
           <div className="bg-gold-500 p-3 rounded-full">
             <Brain className="w-8 h-8 text-white" />
           </div>
           <span className="text-2xl font-bold text-slate-800">
             Produtivo como Jesus
           </span>
-        </div>
+        </div> */}
 
         {/* Main Headline */}
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-tight max-w-5xl text-slate-900">
@@ -63,7 +63,7 @@ const Header = () => {
         <div className="relative mb-6 md:mb-12">
           <div className="rounded-2xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500 border-4 border-gold-100">
             <img
-              src="https://www.acervodopsicologo.com/wp-content/uploads/2026/02/produtivocomojesus.jpeg"
+              src="https://www.acervodopsicologo.com/wp-content/uploads/2026/02/produtivocomojesus.webp"
               alt="Produtivo como Jesus - Planner"
               width="800"
               height="800"
