@@ -46,9 +46,7 @@ const Header = () => {
         {/* Main Headline */}
         <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-[1.15] md:leading-tight max-w-5xl text-slate-900">
           Como organizar sua rotina em 21 dias usando o mesmo método de gestão
-          de tempo que <span className="text-gold-600">Jesus usou</span> para{" "}
-          <span className="text-gold-600">mudar a história</span> em apenas 3
-          anos
+          de tempo de <span className="text-gold-600">Jesus</span>
         </h1>
 
         {/* Mock-up Visual - No margin or padding as requested */}
